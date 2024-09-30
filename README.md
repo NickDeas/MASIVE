@@ -1,8 +1,12 @@
 # MASIVE
 Code accompanying the paper ["MASIVE: Open-Ended Affective State Identification in English and Spanish"](https://arxiv.org/pdf/2407.12196), Deas et al., 2024 presented at the 2024 Conference on Empirical Methods in Natural Language Processing.
 
-![Example Data from the MASIVE dataset](data_example.png)
-![Diagram of bootstrapping data collection procedure](bootstrap_diagram.png)
+<div style="margin-left:auto;margin-right:auto">
+  <img src="/data_example.png" height="400"/>
+  <img src="/bootstrap_diagram.png" height="400"/> 
+</div>
+
+
 
 # Setup
 
