@@ -6,8 +6,6 @@ Code accompanying the paper ["MASIVE: Open-Ended Affective State Identification 
   <img src="/bootstrap_diagram.png" height="400"/> 
 </div>
 
-
-
 # Setup
 
 1. Clone the repository
@@ -24,7 +22,7 @@ mT5 and T5 experiments were run using 2 A100 GPU's.
 
 ## MASIVE Benchmark
 
-To reproduce the benchmark experiments, follow the steps below:
+To reproduce the benchmark experiments (Table 4,6 & Figure 3), follow the steps below:
 1. Navigate to the base directory, `MASIVE`
 2. Run the following two scripts to train the English and Spanish models.
    ```
@@ -37,17 +35,36 @@ To reproduce the benchmark experiments, follow the steps below:
    ```
 
 ## External Evaluation
-To reproduce the external evaluation experiments, follow the steps below:
-1. Run steps 1 and 2 above to finetune the necessary mT5 models
+To reproduce the external evaluation experiments (Table 5), follow the steps below:
+1. Run steps 1 and 2 in [__MASIVE Benchmark__](#MASIVE-Benchmark) to finetune the necessary mT5 models
 2. Run the following scripts to finetune the mT5 models on the necessary emotion datasets.
    ```
-   CUDA_VISIBLE_DEVICES=<GPU_IDS> code/train_external_en.sh
-   CUDA_VISIBLE_DEVICES=<GPU_IDS> code/train_external_es.sh
+   CUDA_VISIBLE_DEVICES=<GPU_IDS> code/train_external.sh
    ```
 3. Run the following script to evaluate the finetuned mT5 models.
    ```
    CUDA_VISIBLE_DEVICES=<GPU_IDS> code/eval_external.sh
    ```
+
+## Translation Experiments
+To reproduce the translation experiments (Table 8), follow the steps below:
+1. Run steps 1 and 2 in [__MASIVE Benchmark__](#MASIVE-Benchmark)
+) to finetune the necessary native mT5 models
+2. Run the following scripts to finetune the subset English models, subset translated Spanish models, and translated English model respectively.
+   ```
+   CUDA_VISIBLE_DEVICES=<GPU_IDS> code/train_internal_en_sub.sh
+   CUDA_VISIBLE_DEVICES=<GPU_IDS> code/train_internal_es_trans_sub.sh
+   CUDA_VISIBLE_DEVICES=<GPU_IDS> code/train_internal_en_trans.sh
+   ```
+3. Run the following script to evaluate the finetuned mT5 models.
+   ```
+   CUDA_VISIBLE_DEVICES=<GPU_IDS> code/eval_internal_en_sub.sh
+   CUDA_VISIBLE_DEVICES=<GPU_IDS> code/eval_internal_es_trans_sub.sh
+   CUDA_VISIBLE_DEVICES=<GPU_IDS> code/eval_internal_en_trans.sh
+   ```
+
+## Tables and Figures
+All Tables and Figures are contained in the ["Tables and Figures.ipynb"](./code/Tables and Figures.ipynb) notebook.
 
 # Citation
 If you use MASIVE or the resulting models in your work, please cite our paper.
