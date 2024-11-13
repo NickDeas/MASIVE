@@ -1,7 +1,6 @@
-/.ipynb_checkpoints/
-/__pycache__/
+.ipynb_checkpoints/
+__pycache__/
 /figures/
-/external_data/
 /masive/
 /models/
 /results/
