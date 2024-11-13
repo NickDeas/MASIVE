@@ -1,4 +1,4 @@
-# MASIVE (Code upload in progress)
+# MASIVE
 Code accompanying the paper ["MASIVE: Open-Ended Affective State Identification in English and Spanish"](https://arxiv.org/pdf/2407.12196), Deas et al., 2024 presented at the 2024 Conference on Empirical Methods in Natural Language Processing.
 
 <div style="margin-left:auto;margin-right:auto">
@@ -44,6 +44,11 @@ To reproduce the external evaluation experiments (Table 5), follow the steps bel
 3. Run the following script to evaluate the finetuned mT5 models.
    ```
    CUDA_VISIBLE_DEVICES=<GPU_IDS> code/scripts/eval_external.sh
+   ```
+4. _(Optional)_ To repeat experiments with T5, run the following scripts.
+   ```
+   CUDA_VISIBLE_DEVICES=<GPU_IDS> code/scripts/train_external_t5.sh
+   CUDA_VISIBLE_DEVICES=<GPU_IDS> code/scripts/eval_external_t5.sh
    ```
 
 ## Translation Experiments
