@@ -1,0 +1,1 @@
+{"data_dir":"./external_data/", "train_data": "goemo", "model_checkpoint": "google-t5/t5-large", "output_dir": "./models/external/", "train_batch_size":8}

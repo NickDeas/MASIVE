@@ -1,0 +1,1 @@
+{"model": "mixtral-8x22b-instruct", "api_key": "<API_KEY>", "test_fp": "./masive/en/test.csv", "lang": "en", "result_dir": "./results/", "embed_device": 0}

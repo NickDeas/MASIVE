@@ -1,0 +1,1 @@
+{"model_checkpoint": "./models/en_masive_sub1_mt5_large", "test_fp": "./masive/en_trans/test_trans.csv", "result_dir": "./results/", "input_col": "clip_input", "batch_size": 2, "device": 0, "embed_device": 1}

@@ -1,0 +1,1 @@
+{"model_checkpoint": "./models/external/en_masive_mt5_large_goemo", "test_dir": "./external_data/", "eval_datas": ["goemo"], "result_dir": "./results/", "device": 0, "embed_device": 0}

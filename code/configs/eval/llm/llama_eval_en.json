@@ -1,0 +1,1 @@
+{"model_checkpoint": "meta-llama/Meta-Llama-3-8B-Instruct", "test_fp": "./masive/en/test.csv", "lang": "en", "result_dir": "./results/", "batch_size": 1, "embed_device": 0}

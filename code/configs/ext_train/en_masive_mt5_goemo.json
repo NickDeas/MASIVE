@@ -1,0 +1,1 @@
+{"data_dir":"./external_data/", "train_data": "goemo", "model_checkpoint": "./models/en_masive_mt5_large", "output_dir": "./models/external/", "train_batch_size":8}

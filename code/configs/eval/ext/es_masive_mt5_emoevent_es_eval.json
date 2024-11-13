@@ -1,0 +1,1 @@
+{"model_checkpoint": "./models/external/es_masive_mt5_large_emoevent_es", "test_dir": "./external_data/", "eval_datas": ["emoevent_es"], "result_dir": "./results/", "device": 0, "embed_device": 0}

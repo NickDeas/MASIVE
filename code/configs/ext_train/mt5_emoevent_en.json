@@ -1,0 +1,1 @@
+{"data_dir":"./external_data/", "train_data": "emoevent_en", "model_checkpoint": "google/mt5-large", "output_dir": "./models/external/", "train_batch_size":8}

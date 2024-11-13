@@ -1,0 +1,1 @@
+{"data_dir":"./masive/es/", "input_col": "clip_input", "model_checkpoint": "google/mt5-large", "output_dir": "./models/es_masive_mt5_large/", "target_col":"t5_trg", "train_batch_size":4}

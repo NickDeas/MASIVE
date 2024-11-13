@@ -69,15 +69,25 @@ All Tables and Figures can be generated with the ["Tables and Figures.ipynb"](./
 # Citation
 If you use MASIVE or the resulting models in your work, please cite our paper.
 ```
-@misc{deas2024masiveopenendedaffectivestate,
-      title={MASIVE: Open-Ended Affective State Identification in English and Spanish}, 
-      author={Nicholas Deas and Elsbeth Turcan and Iván Pérez Mejía and Kathleen McKeown},
-      year={2024},
-      eprint={2407.12196},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2407.12196}, 
+@inproceedings{deas-etal-2024-masive,
+    title = "{MASIVE}: Open-Ended Affective State Identification in {E}nglish and {S}panish",
+    author = "Deas, Nicholas  and
+      Turcan, Elsbeth  and
+      Mejia, Ivan Ernesto Perez  and
+      McKeown, Kathleen",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.1139",
+    pages = "20467--20485",
+    abstract = "In the field of emotion analysis, much NLP research focuses on identifying a limited number of discrete emotion categories, often applied across languages. These basic sets, however, are rarely designed with textual data in mind, and culture, language, and dialect can influence how particular emotions are interpreted. In this work, we broaden our scope to a practically unbounded set of affective states, which includes any terms that humans use to describe their experiences of feeling. We collect and publish MASIVE, a dataset of Reddit posts in English and Spanish containing over 1,000 unique affective states each. We then define the new problem of affective state identification for language generation models framed as a masked span prediction task. On this task, we find that smaller finetuned multilingual models outperform much larger LLMs, even on region-specific Spanish affective states. Additionally, we show that pretraining on MASIVE improves model performance on existing emotion benchmarks. Finally, through machine translation experiments, we find that native speaker-written data is vital to good performance on this task.",
 }
+
 ```
 
 # Contact
