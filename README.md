@@ -15,6 +15,9 @@ Code accompanying the paper ["MASIVE: Open-Ended Affective State Identification 
    ```
 3. Run `setup.sh` to download the data and make all experiment scripts executable. The data download includes the English and Spanish subsets of masive, train/validation/test splits, regional Spanish data, translated data, and subsetted data used throughout experimental results.
 
+# Data
+The data is automatically downloaded through the `setup.sh` script. If you want to download the data separately or the download does not work, you can access the data at [https://drive.google.com/file/d/1MxvcL7M3iGa4-j_hznMTBLXe9ULEAHDf/view?usp=sharing](https://drive.google.com/file/d/1MxvcL7M3iGa4-j_hznMTBLXe9ULEAHDf/view?usp=sharing).
+
 # Experiments
 
 Scripts are included in the `code/scripts` directory to train and evaluate models used in each experiment. The `code/configs` directory contains the configs used for each experiment and can be modified to alter training.
