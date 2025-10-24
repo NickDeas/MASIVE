@@ -1,4 +1,4 @@
-# MASIVE
+# MASIVE (Columbia NLP)
 Code accompanying the paper ["MASIVE: Open-Ended Affective State Identification in English and Spanish"](https://arxiv.org/pdf/2407.12196), Deas et al., 2024 presented at the 2024 Conference on Empirical Methods in Natural Language Processing.
 
 <div style="margin-left:auto;margin-right:auto">
